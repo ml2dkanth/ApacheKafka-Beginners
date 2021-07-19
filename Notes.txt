@@ -1,0 +1,5 @@
+Apache Kafka can be downloaded from:
+https://kafka.apache.org/downloads
+
+Contents topics : Core Concepts, Real World Java Producers/Consumers & Big Data Architecture
+
