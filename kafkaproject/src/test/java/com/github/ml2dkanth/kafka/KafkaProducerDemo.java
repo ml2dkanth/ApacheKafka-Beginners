@@ -21,7 +21,9 @@ public class KafkaProducerDemo {
         KafkaProducer<String,String> kproducer =new KafkaProducer<String, String>(properties);
 
         // Create Kafka Producer Data
-        // Procedure for create Producer Record
+        // a.Procedure for create Producer Record
+        // b.Send the data to the topic
+
         ProducerRecord<String,String> record1, record2, record3;
         record1=new ProducerRecord<String,String>("first_topic","Hello Srikanth");
         record2=new ProducerRecord<String,String>("first_topic","Hello Akshit");
